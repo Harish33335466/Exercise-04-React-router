@@ -1,0 +1,30 @@
+.group-items{
+    display: flex;
+    gap:55px; 
+    margin: auto;
+    padding-top: 20px;
+    justify-content: center;
+    list-style: none;
+    background-color: gray;
+    height: 60px;
+}
+
+li{
+    width: 200px;
+    
+}
+
+
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    width: auto;
+    font-size: 19px;
+}
+a:hover{
+    color:yellowgreen;
+}
